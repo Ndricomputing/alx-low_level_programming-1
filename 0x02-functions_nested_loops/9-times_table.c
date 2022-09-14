@@ -18,10 +18,10 @@ void times_table(void)
                         if (prod <= 9)
                                 _putchar(' ');
                         else
-                                _puchar((prod / 10) + '0');
+                                _pucthar((prod / 10) + '0');
 
-                        _puchar((prod %10) + '0');
+                        _putchar((prod %10) + '0');
                 }
-                _puchar('\'n);
+                _putchar('\'n);
 	}
 }
